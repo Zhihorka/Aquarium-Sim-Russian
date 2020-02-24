@@ -1,0 +1,224 @@
+  Fish5000.Playground.resources - Embedded, ContainedInManifestFile, 
+ImageRuntimeVersion: v4.0.30319
+Assembly Fish5000, Version=0.0.*, Culture=Инвариантный язык (Инвариантная страна): 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=None, flags=None
+Assembly System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Class FishFood: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(System.Windows.Forms.PictureBox): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    System.IDisposable
+  Fields:
+    Int32 LocationX : Public
+    Int32 LocationY : Public
+  Properties:
+    Int32 Property_LocationY 'get set' : 
+    Int32 Property_LocationX 'get set' : 
+    Int32 p_LocationY 'get set' : 
+    Int32 p_LocationX 'get set' : 
+  Methods:
+    get_p_LocationX(): PrivateScope, Public, HideBySig, SpecialName
+    set_p_LocationX(Int32): PrivateScope, Public, HideBySig, SpecialName
+    get_p_LocationY(): PrivateScope, Public, HideBySig, SpecialName
+    set_p_LocationY(Int32): PrivateScope, Public, HideBySig, SpecialName
+    get_Property_LocationX(): PrivateScope, Public, HideBySig, SpecialName
+    set_Property_LocationX(Int32): PrivateScope, Public, HideBySig, SpecialName
+    get_Property_LocationY(): PrivateScope, Public, HideBySig, SpecialName
+    set_Property_LocationY(Int32): PrivateScope, Public, HideBySig, SpecialName
+    SetCreateStatusForFishFood(Boolean(HasFieldMarshal), Boolean(HasFieldMarshal), Boolean(HasFieldMarshal), Boolean(HasFieldMarshal)): PrivateScope, Public, HideBySig
+    CheckForPeaceFish(): PrivateScope, Public, HideBySig
+    FishFoodEatenAdvanced(Boolean(HasFieldMarshal)): PrivateScope, Public, HideBySig
+    Falling(): PrivateScope, Public, HideBySig
+    GetLocationX(): PrivateScope, Public, HideBySig
+    GetLocationY(): PrivateScope, Public, HideBySig
+    FishFoodAnimation(): PrivateScope, Public, HideBySig
+    Dispose(): PrivateScope, Public, Final, Virtual, HideBySig
+Class Fish: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(Int32, Int32, Int32, Int32, Int32, System.Windows.Forms.PictureBox): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    Int32 Property_LocationY 'get set' : 
+    Int32 Property_LocationX 'get set' : 
+    Int32 Property_SwimDirection 'get set' : 
+    Int32 Property_AnimationIndex 'get set' : 
+  Methods:
+    get_Property_AnimationIndex(): PrivateScope, Public, HideBySig, SpecialName
+    set_Property_AnimationIndex(Int32): PrivateScope, Public, HideBySig, SpecialName
+    get_Property_SwimDirection(): PrivateScope, Public, HideBySig, SpecialName
+    set_Property_SwimDirection(Int32): PrivateScope, Public, HideBySig, SpecialName
+    get_Property_LocationX(): PrivateScope, Public, HideBySig, SpecialName
+    set_Property_LocationX(Int32): PrivateScope, Public, HideBySig, SpecialName
+    FishLifeEndAdvanced(Boolean(HasFieldMarshal)): PrivateScope, Public, HideBySig
+    get_Property_LocationY(): PrivateScope, Public, HideBySig, SpecialName
+    set_Property_LocationY(Int32): PrivateScope, Public, HideBySig, SpecialName
+    GetLocationX(): PrivateScope, Public, HideBySig
+    GetLocationY(): PrivateScope, Public, HideBySig
+    LifeTimePlus(): PrivateScope, Public, HideBySig
+    NewPeaceFishCreated(): PrivateScope, Public, HideBySig
+    NewAngryFishCreated(): PrivateScope, Public, HideBySig
+    NewFishFoodObjectCreated(): PrivateScope, Public, HideBySig
+    NewPeaceFishVanish(): PrivateScope, Public, HideBySig
+    NewAngryFishVanish(): PrivateScope, Public, HideBySig
+    FishFoodObjectVansih(): PrivateScope, Public, HideBySig
+    CalculateRange(Int32, Int32): PrivateScope, Public, HideBySig
+    LifeTimeSpec(Int32): PrivateScope, Public, HideBySig
+Class PeaceFish: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :Fish
+    Void .ctor(Int32, Int32, Int32, Int32, Int32, Boolean, System.Windows.Forms.PictureBox, FishFood, PeaceFish, PeaceFish, PeaceFish, Boolean, Boolean, Boolean, Int32): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    System.IDisposable
+  Properties:
+    Boolean Property_Created 'get set' : 
+    Int32 Property_SwimDirecton 'get set' : 
+    Boolean Property_SpotFood 'get set' : 
+    Int32 Property_AnimationFrame 'get set' : 
+  Events:
+    FishLifeEndAdvanced_Handler FishLifeEndAdvanced_Event: SpecialName
+    FishFoodEatenAdvanced_Handler FishFoodEatenAdvanced_Event: SpecialName
+  Methods:
+    add_FishFoodEatenAdvanced_Event(FishFoodEatenAdvanced_Handler): PrivateScope, Public, HideBySig, SpecialName
+    remove_FishFoodEatenAdvanced_Event(FishFoodEatenAdvanced_Handler): PrivateScope, Public, HideBySig, SpecialName
+    add_FishLifeEndAdvanced_Event(FishLifeEndAdvanced_Handler): PrivateScope, Public, HideBySig, SpecialName
+    remove_FishLifeEndAdvanced_Event(FishLifeEndAdvanced_Handler): PrivateScope, Public, HideBySig, SpecialName
+    get_Property_AnimationFrame(): PrivateScope, Public, HideBySig, SpecialName
+    set_Property_AnimationFrame(Int32): PrivateScope, Public, HideBySig, SpecialName
+    get_Property_SpotFood(): PrivateScope, Public, HideBySig, SpecialName
+    set_Property_SpotFood(Boolean(HasFieldMarshal)): PrivateScope, Public, HideBySig, SpecialName
+    get_Property_SwimDirecton(): PrivateScope, Public, HideBySig, SpecialName
+    set_Property_SwimDirecton(Int32): PrivateScope, Public, HideBySig, SpecialName
+    get_Property_Created(): PrivateScope, Public, HideBySig, SpecialName
+    set_Property_Created(Boolean(HasFieldMarshal)): PrivateScope, Public, HideBySig, SpecialName
+    PeaceFishSetPanic(Boolean(HasFieldMarshal)): PrivateScope, Public, HideBySig
+    PeaceFishEatenAdvanced(Boolean(HasFieldMarshal)): PrivateScope, Public, HideBySig
+    SetLifeTime(Int32): PrivateScope, Public, HideBySig
+    LifeTimeTick(): PrivateScope, Public, HideBySig
+    SpotFoodEvent(Boolean(HasFieldMarshal)): PrivateScope, Public, HideBySig
+    CalculateRange(Int32, Int32, Int32, Int32): PrivateScope, Public, HideBySig
+    FishChasedAction(Timer): PrivateScope, Public, HideBySig
+    FishFoodChased(Boolean(HasFieldMarshal), Boolean(HasFieldMarshal), Int32, Int32, Int32, Int32, PictureBox, Boolean(HasFieldMarshal), PeaceFish): PrivateScope, Public, HideBySig
+    SetLampActive(Boolean(HasFieldMarshal)): PrivateScope, Public, HideBySig
+    GetFishFodEaten(): PrivateScope, Public, HideBySig
+    FishIsHungryMessageBox(): PrivateScope, Public, HideBySig
+    FishIsHungry(): PrivateScope, Public, HideBySig
+    TrackFishFoodhXY(Int32, Int32): PrivateScope, Public, HideBySig
+    CheckNewFoodExist(Boolean(HasFieldMarshal)): PrivateScope, Public, HideBySig
+    Set_SpotFood(Boolean(HasFieldMarshal)): PrivateScope, Public, HideBySig
+    GetPbContainer(): PrivateScope, Public, HideBySig
+    Set_FishFoodLocation(Int32, Int32): PrivateScope, Public, HideBySig
+    FishMove(): PrivateScope, Public, HideBySig
+    Set_FishFoodObjectExist(Boolean(HasFieldMarshal)): PrivateScope, Public, HideBySig
+    Get_SpotFood(): PrivateScope, Public, HideBySig
+    SearchForFood(): PrivateScope, Public, HideBySig
+    MoveForFood(FishFood): PrivateScope, Public, HideBySig
+    PeaceFishAnimation(): PrivateScope, Public, HideBySig
+    GetNearDeath(): PrivateScope, Public, HideBySig
+    Dispose(): PrivateScope, Public, Final, Virtual, HideBySig
+Class PeaceFish+FishFoodEatenAdvanced_Handler: AutoLayout, AnsiClass, Class, NestedPublic, Sealed, BeforeFieldInit
+  :System.MulticastDelegate
+    Void .ctor(System.Object, IntPtr): PrivateScope, Public, SpecialName, RTSpecialName
+  Methods:
+    Invoke(Boolean(HasFieldMarshal)): PrivateScope, Public, Final, Virtual, VtableLayoutMask
+    BeginInvoke(Boolean(HasFieldMarshal), AsyncCallback, Object): PrivateScope, Public, Final, Virtual, VtableLayoutMask
+    EndInvoke(IAsyncResult): PrivateScope, Public, Final, Virtual, VtableLayoutMask
+Class PeaceFish+FishLifeEndAdvanced_Handler: AutoLayout, AnsiClass, Class, NestedPublic, Sealed, BeforeFieldInit
+  :System.MulticastDelegate
+    Void .ctor(System.Object, IntPtr): PrivateScope, Public, SpecialName, RTSpecialName
+  Methods:
+    Invoke(Boolean(HasFieldMarshal)): PrivateScope, Public, Final, Virtual, VtableLayoutMask
+    BeginInvoke(Boolean(HasFieldMarshal), AsyncCallback, Object): PrivateScope, Public, Final, Virtual, VtableLayoutMask
+    EndInvoke(IAsyncResult): PrivateScope, Public, Final, Virtual, VtableLayoutMask
+Class AngryFish: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :Fish
+    Void .ctor(Int32, Int32, Int32, Int32, Int32, System.Windows.Forms.PictureBox, Int32, PeaceFish, PeaceFish, PeaceFish, PeaceFish, AngryFish, AngryFish, AngryFish, Boolean, Boolean, Boolean, System.Windows.Forms.Timer): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    System.IDisposable
+  Properties:
+    Boolean Property_NearDeath 'get set' : 
+    Int32 Property_Waiting 'get set' : 
+    Boolean Property_AngryFishCreated 'get ' : 
+    Boolean Property_Engage 'get set' : 
+    Int32 Property_NumberOfPeaceFish 'get ' : 
+  Events:
+    PeaceFishSetPanicAdvanced_Handler PeaceFishSetPanicAdvanced_Event: SpecialName
+    FishLifeEndAdvanced_Handler FishLifeEndAdvanced_Event: SpecialName
+    PeaceFishEatenAdvanced_Handler PeaceFishEatenAdvanced_Event: SpecialName
+  Methods:
+    add_PeaceFishEatenAdvanced_Event(PeaceFishEatenAdvanced_Handler): PrivateScope, Public, HideBySig, SpecialName
+    remove_PeaceFishEatenAdvanced_Event(PeaceFishEatenAdvanced_Handler): PrivateScope, Public, HideBySig, SpecialName
+    add_FishLifeEndAdvanced_Event(FishLifeEndAdvanced_Handler): PrivateScope, Public, HideBySig, SpecialName
+    remove_FishLifeEndAdvanced_Event(FishLifeEndAdvanced_Handler): PrivateScope, Public, HideBySig, SpecialName
+    add_PeaceFishSetPanicAdvanced_Event(PeaceFishSetPanicAdvanced_Handler): PrivateScope, Public, HideBySig, SpecialName
+    remove_PeaceFishSetPanicAdvanced_Event(PeaceFishSetPanicAdvanced_Handler): PrivateScope, Public, HideBySig, SpecialName
+    EventRangeCalculated(Boolean(HasFieldMarshal)): PrivateScope, Public, HideBySig
+    WaitingTick(): PrivateScope, Public, HideBySig
+    AngryFishEatPeaceFish(Boolean(HasFieldMarshal)): PrivateScope, Public, HideBySig
+    get_Property_NumberOfPeaceFish(): PrivateScope, Public, HideBySig, SpecialName
+    get_Property_Engage(): PrivateScope, Public, HideBySig, SpecialName
+    set_Property_Engage(Boolean(HasFieldMarshal)): PrivateScope, Public, HideBySig, SpecialName
+    get_Property_AngryFishCreated(): PrivateScope, Public, HideBySig, SpecialName
+    get_Property_Waiting(): PrivateScope, Public, HideBySig, SpecialName
+    set_Property_Waiting(Int32): PrivateScope, Public, HideBySig, SpecialName
+    get_Property_NearDeath(): PrivateScope, Public, HideBySig, SpecialName
+    set_Property_NearDeath(Boolean(HasFieldMarshal)): PrivateScope, Public, HideBySig, SpecialName
+    EventAngryFishEngage(Boolean(HasFieldMarshal)): PrivateScope, Public, HideBySig
+    Set_Engage(Boolean(HasFieldMarshal)): PrivateScope, Public, HideBySig
+    Get_CPF1Create(): PrivateScope, Public, HideBySig
+    Set_CPF1Create(Boolean(HasFieldMarshal)): PrivateScope, Public, HideBySig
+    Get_CPF2Create(): PrivateScope, Public, HideBySig
+    Get_CPF3Create(): PrivateScope, Public, HideBySig
+    Get_CPF4Create(): PrivateScope, Public, HideBySig
+    LifeTimeTick(): PrivateScope, Public, HideBySig
+    GetLifeTime(): PrivateScope, Public, HideBySig
+    Get_NumberOfVictim(): PrivateScope, Public, HideBySig
+    SetLifeTime(Int32): PrivateScope, Public, HideBySig
+    UpdateAllLocations(Int32, Int32, Int32, Int32, Int32, Int32, Int32, Int32, Int32, Int32, Int32, Int32, Int32, Int32, Boolean(HasFieldMarshal), Boolean(HasFieldMarshal), Boolean(HasFieldMarshal), Boolean(HasFieldMarshal)): PrivateScope, Public, HideBySig
+    GetCreateStatus(Boolean(HasFieldMarshal), Boolean(HasFieldMarshal), Boolean(HasFieldMarshal), Boolean(HasFieldMarshal)): PrivateScope, Public, HideBySig
+    GetHungry(): PrivateScope, Public, HideBySig
+    GetPeaceFishEaten(): PrivateScope, Public, HideBySig
+    CheckNomralFishExist(Boolean(HasFieldMarshal)): PrivateScope, Public, HideBySig
+    TrackPeaceFishXY(Int32, Int32): PrivateScope, Public, HideBySig
+    CalculateRange(Int32, Int32): PrivateScope, Public, HideBySig
+    SearchForFish(): PrivateScope, Public, HideBySig
+    ChaseEnd(): PrivateScope, Public, HideBySig
+    SmartSearchForFish(): PrivateScope, Public, HideBySig
+    PursuitMove(PeaceFish): PrivateScope, Public, HideBySig
+    AngryFishMove(): PrivateScope, Public, HideBySig
+    AngryFishAnimation(): PrivateScope, Public, HideBySig
+    AllAngryFishLeft(PictureBox, PictureBox, PictureBox, PictureBox): PrivateScope, Public, HideBySig
+    Set_Hungry(Int32): PrivateScope, Public, HideBySig
+    MainHandler(): PrivateScope, Public, HideBySig
+    Dispose(): PrivateScope, Public, Final, Virtual, HideBySig
+Class AngryFish+PeaceFishEatenAdvanced_Handler: AutoLayout, AnsiClass, Class, NestedPublic, Sealed, BeforeFieldInit
+  :System.MulticastDelegate
+    Void .ctor(System.Object, IntPtr): PrivateScope, Public, SpecialName, RTSpecialName
+  Methods:
+    Invoke(Boolean(HasFieldMarshal)): PrivateScope, Public, Final, Virtual, VtableLayoutMask
+    BeginInvoke(Boolean(HasFieldMarshal), AsyncCallback, Object): PrivateScope, Public, Final, Virtual, VtableLayoutMask
+    EndInvoke(IAsyncResult): PrivateScope, Public, Final, Virtual, VtableLayoutMask
+Class AngryFish+FishLifeEndAdvanced_Handler: AutoLayout, AnsiClass, Class, NestedPublic, Sealed, BeforeFieldInit
+  :System.MulticastDelegate
+    Void .ctor(System.Object, IntPtr): PrivateScope, Public, SpecialName, RTSpecialName
+  Methods:
+    Invoke(Boolean(HasFieldMarshal)): PrivateScope, Public, Final, Virtual, VtableLayoutMask
+    BeginInvoke(Boolean(HasFieldMarshal), AsyncCallback, Object): PrivateScope, Public, Final, Virtual, VtableLayoutMask
+    EndInvoke(IAsyncResult): PrivateScope, Public, Final, Virtual, VtableLayoutMask
+Class AngryFish+PeaceFishSetPanicAdvanced_Handler: AutoLayout, AnsiClass, Class, NestedPublic, Sealed, BeforeFieldInit
+  :System.MulticastDelegate
+    Void .ctor(System.Object, IntPtr): PrivateScope, Public, SpecialName, RTSpecialName
+  Methods:
+    Invoke(Boolean(HasFieldMarshal)): PrivateScope, Public, Final, Virtual, VtableLayoutMask
+    BeginInvoke(Boolean(HasFieldMarshal), AsyncCallback, Object): PrivateScope, Public, Final, Virtual, VtableLayoutMask
+    EndInvoke(IAsyncResult): PrivateScope, Public, Final, Virtual, VtableLayoutMask
+Class Fish5000.Playground: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName

@@ -1,0 +1,20 @@
+﻿  Playground.cpp
+C:\Users\User\Desktop\Временный рабочий стол\Fish Final\Fish5000\Fish5000\FishHeader.h(15,18): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
+C:\Users\User\Desktop\Временный рабочий стол\Fish Final\Fish5000\Fish5000\FishHeader.h(315,14): warning C4244: return: преобразование "double" в "int", возможна потеря данных
+C:\Users\User\Desktop\Временный рабочий стол\Fish Final\Fish5000\Fish5000\FishHeader.h(468,19): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
+C:\Users\User\Desktop\Временный рабочий стол\Fish Final\Fish5000\Fish5000\FishHeader.h(561,15): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+C:\Users\User\Desktop\Временный рабочий стол\Fish Final\Fish5000\Fish5000\FishHeader.h(713,20): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
+C:\Users\User\Desktop\Временный рабочий стол\Fish Final\Fish5000\Fish5000\FishHeader.h(1313,19): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
+C:\Users\User\Desktop\Временный рабочий стол\Fish Final\Fish5000\Fish5000\FishHeader.h(1325,20): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
+C:\Users\User\Desktop\Временный рабочий стол\Fish Final\Fish5000\Fish5000\FishHeader.h(1473,1): warning C4805: ==: небезопасное смешение типа "int" и типа "bool" в операции
+C:\Users\User\Desktop\Временный рабочий стол\Fish Final\Fish5000\Fish5000\FishHeader.h(1500,1): warning C4805: ==: небезопасное смешение типа "int" и типа "bool" в операции
+C:\Users\User\Desktop\Временный рабочий стол\Fish Final\Fish5000\Fish5000\FishHeader.h(1503,1): warning C4805: ==: небезопасное смешение типа "int" и типа "bool" в операции
+C:\Users\User\Desktop\Временный рабочий стол\Fish Final\Fish5000\Fish5000\FishHeader.h(1608,15): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+C:\Users\User\Desktop\Временный рабочий стол\Fish Final\Fish5000\Fish5000\FishHeader.h(1773,1): warning C4805: ==: небезопасное смешение типа "int" и типа "bool" в операции
+C:\Users\User\Desktop\Временный рабочий стол\Fish Final\Fish5000\Fish5000\Playground.h(1450,20): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
+C:\Users\User\Desktop\Временный рабочий стол\Fish Final\Fish5000\Fish5000\Playground.cpp(9,37): warning C4829: Возможно, неправильные параметры функции main. Рекомендуемый вариант - "int main(Platform::Array<Platform::String^>^ argv)"
+C:\Users\User\Desktop\Временный рабочий стол\Fish Final\Fish5000\Fish5000\FishHeader.h(1466): warning C4700: использована неинициализированная локальная переменная "MinRange"
+C:\Users\User\Desktop\Временный рабочий стол\Fish Final\Fish5000\Fish5000\Playground.h(1446): warning C4715: Fish5000::Playground::PeaceFishEatenEvent: значение возвращается не при всех путях выполнения
+  .NETFramework,Version=v4.6.1.AssemblyAttributes.cpp
+  Playground.obj : обнаружен модуль MSIL; для MSIL последовательная компоновка отключена; выполняется полная компоновка
+  Fish5000.vcxproj -> C:\Users\User\Desktop\Временный рабочий стол\Fish Final\Fish5000\Debug\Fish5000.exe
